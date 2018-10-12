@@ -1,2 +1,5 @@
 # team-procs
-All of our docs about how we work as a team
+
+[Standup](Standup.md)
+
+[Sprint Planner](Sprint.md)
