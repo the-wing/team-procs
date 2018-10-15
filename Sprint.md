@@ -36,5 +36,5 @@
 
 6. **Ticket Writing Party**
 
-  In this phase, we split up the work of writing the tickets. The engineers likely to work on an epic go through and figure out how to break up the work into tasks that one or more engineers can work on.
+   In this phase, we split up the work of writing the tickets. The engineers likely to work on an epic go through and figure out how to break up the work into tasks that one or more engineers can work on.
 
