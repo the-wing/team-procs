@@ -1,6 +1,6 @@
 # How we use Git
 
-Git is an extremely powerful tool with many possible workflows. Our Git workflow should make it easier to achieve or larger goal with tickets/work: merging tickets quickly.
+Git is an extremely powerful tool with many possible workflows. Our Git workflow should make it easier to achieve our larger goal with tickets/work: merging tickets quickly, and deploying value to production often.
 
 Generally, we stick to Atlassian's [Simple Git Workflow](https://www.atlassian.com/blog/git/simple-git-workflow-simple). Due to the nature of our release process, there are some additional steps one needs to take during the review portion of the dev cycle.
 
