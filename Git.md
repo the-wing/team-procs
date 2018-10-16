@@ -2,7 +2,7 @@
 
 Git is an extremely powerful tool with many possible workflows. Our Git workflow should make it easier to achieve or larger goal with tickets/work: merging tickets quickly.
 
-Generally, we stick to Atlassian's (Simple Git Workflow)[https://www.atlassian.com/blog/git/simple-git-workflow-simple]. Due to the nature of our release process, there are some additional steps one needs to take during the review portion of the dev cycle.
+Generally, we stick to Atlassian's [Simple Git Workflow](https://www.atlassian.com/blog/git/simple-git-workflow-simple). Due to the nature of our release process, there are some additional steps one needs to take during the review portion of the dev cycle.
 
 ## Branches
 We use three types of branches for our workflow.
