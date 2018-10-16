@@ -24,7 +24,7 @@ Lets say you are picking up a new ticket from Jira, WING-123:
 
 ```
 $ git checkout staging
-$ git pull 
+$ git pull --ff-only
 $ git checkout -b WING-123-some-new-feature
 $ git push -u origin WING-123-some-new-feature
 ```
@@ -45,5 +45,14 @@ $ git push -f
 
 NOTE: you will need to force push your branch after the rebase. Make sure you alert other engineers who may be pairing with you before you force push.
 
-Open pull requests against `staging` early and give them tag of WIP (work in progress). 
+Open pull requests against `staging` early and give them tag of WIP (work in progress). In the case that your repo does not have automated preview links, you may need to do a manual merge of your work onto the `develop` branch for UAT testing. To do this:
+
+```
+$ git checkout develop
+$ git pull --ff-only
+$ git merge WING-123-some-new-feature 
+$ git push
+```
+
+Once you have gotten full approval on all fronts (code, UAT, design) you may merge your feature work into staging using the Github pull request merge button. 
 
