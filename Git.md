@@ -19,5 +19,31 @@ To do work, you will cut a new branch off of `staging`. Once you have passed cod
 ### Develop
 Some of our projects lack preview links for pull requests. In these instances, you should merge your in-review feature branch into the weekly `develop` branch for UAT. This branch is pruned and reset to `staging` 
 
-## Workflow
-Once again, please read through (Simple Git Workflow)[https://www.atlassian.com/blog/git/simple-git-workflow-simple] first. 
+## Workflow Example
+Lets say you are picking up a new ticket from Jira, WING-123:
+
+```
+$ git checkout staging
+$ git pull 
+$ git checkout -b WING-123-some-new-feature
+$ git push -u origin WING-123-some-new-feature
+```
+
+All of your commit messages should be prepended with the `[Ticket Number]` so in this case:
+
+```
+$ git commit -m "[WING-123] added migration for new feature"
+```
+
+If you want to keep your feature branch up to date with the latest version of `staging`, you should use the rebase method instead of a merge method. Here is an example of updating our feature branch to include the latest changes from `staging`.
+```
+$ git checkout WING-123-some-new-feature
+$ git fetch
+$ git rebase origin/staging
+$ git push -f
+```
+
+NOTE: you will need to force push your branch after the rebase. Make sure you alert other engineers who may be pairing with you before you force push.
+
+Open pull requests against `staging` early and give them tag of WIP (work in progress). 
+
