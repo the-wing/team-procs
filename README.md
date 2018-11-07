@@ -5,6 +5,8 @@ This repo serves as a place to document all of our processes. The way that we wo
 ## Content
 [Standup](Standup.md) - This the script for our daily standups.
 
+[Video meeting protocol](Video.md) - This is how we should approach all meetings with a video component.
+
 [Sprint Planner](Sprint.md) - The framework for our sprint planning meetings. 
 
 [Git usage](Git.md) - How we use git. 
