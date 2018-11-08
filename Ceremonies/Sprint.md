@@ -6,6 +6,8 @@ Our goal is never to "complete" sprint. We never set a "story points" minumum we
 
 We use Atlassian's Jira for managing tickets. Many of the steps below are specific to this tool, but they dont need to be.
 
+For information on how work gets introduced, please read the [Grooming](./Ceremonies/Grooming.md) document. The important thing to know is that we group proposed work into Jira's "Epics" concept. Basically, a container for related tickets. 
+
 1. **Mark the sprint as complete from the active sprints tab**
 
    By marking the sprint as completed, Jira will move all "Done" tickets off the backlog. This is crucial for the next steps, as it will be easy to determine if an Epic is fully shipped and it will force us to re-prioritizeany tickets that are carried over.
