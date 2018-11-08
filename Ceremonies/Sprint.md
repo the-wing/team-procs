@@ -1,8 +1,8 @@
-# Sprint Planner
+# Sprint Planner [Work In Progress]
 
 The purpose of a sprint planner at The Wing is for a team of engineers, designers, and product managers to align on what, why, and how we are working on the things we are working on. As new information emerges and our goals change, the priority of various projects, features, and bugs shift around. As new work (design or tech) is produced, the relative difficulty of other work changes as well. Our sprint planner script allows us to account for relative effort and value of the things we have in the backlog. 
 
-Our goal is never to "complete" sprint. We never set a "story points" minumum we must hit. The purpose of the sprint planning meeting is simply to make sure we all know why we are working on the things we are working on. 
+Our goal is never to "complete" sprint. We never set a "story points" minumum we must hit. The purpose of the sprint planning meeting is simply to make sure the priority order of planned work still makes sense given the new state of the world. As work is completed, new work proposals are introduced and ranked based on their relative value and effort.
 
 We use Atlassian's Jira for managing tickets. Many of the steps below are specific to this tool, but they dont need to be.
 
