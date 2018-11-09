@@ -1,6 +1,6 @@
 # The Wing Processes
 
-This repo serves as a place to document all of our processes. 
+As a team, we are constantly experimenting with how we do work. This repo serves as a place to document all of our processes and all of the proposed changes to that process. 
 
 ## Directory
 [Ceremonies](./Ceremonies) - All of the regular meetings we have and how they are run.
