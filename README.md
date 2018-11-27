@@ -7,7 +7,9 @@ As a team, we are constantly experimenting with how we do work. This repo serves
 
 [Remote](./Remote) - Our team is distributed around the world. Here's how we deal with that.
 
-[Eng](./Eng) - Engineering specific documentation
+[Eng](./Eng) - Engineering specific documentation'
+  - [Hiring](./Eng/Hiring.md) - How the engineering team does a hire
+  - [Git](./Eng/Git.md) - Git is a simple thing that can go very wrong
 
 [Design](./Design) - Our product design team does things a little differently. Here's how they work
 
