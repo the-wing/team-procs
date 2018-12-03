@@ -4,10 +4,7 @@ We know looking for a new job can be an exhausting and stressful experience. Our
 As a Wing Employee who is taking part in the hiring process, please familiarize yourself with the steps below and each goal of the steps. 
 
 ## Initial Screen
-Typically done over the phone after someone has submitted their application. The goal of this step is to assess a few things about the candidate:
- - Why are they interested in working at The Wing?
- - Why are they looking to make a change?
- - What is their timeline
+Typically done over the phone after someone has submitted their application. 
 
 ## Onsite
 
