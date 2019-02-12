@@ -4,7 +4,10 @@ We know looking for a new job can be an exhausting and stressful experience. Our
 As a Wing Employee who is taking part in the hiring process, please familiarize yourself with the steps below and each goal of the steps. 
 
 ## Initial Screen
-Typically done over the phone after someone has submitted their application. 
+Typically done over the phone after someone has submitted their application. The purpose of the phone screen is to get a sense of the candidates experience both from a technical and from a "teaming" perspective. We don't ask any trick gotcha questions ever, and certainly not during the phone screen, but do not feel uncomfortable getting nerdy if the conversation drifts that way. The primary "interviewy" things we want to know by the end of the call that are:
+ - What is the candidate's timeline for a new role and where are the in the process with other interviews?
+ - What about their previous roles and teams did they like
+ - What about their previous roles and teams did they not like
 
 ## Onsite
 
