@@ -16,7 +16,7 @@ This branch is where all work is based, and into which all fully approved work i
 ### Feature branches
 To do work, you will cut a new branch off of `staging`. Once you have passed code review and UAT, you will merge your feature branch back into `staging`. We try to avoid branching new feature work off of other feature branches as much as possible so make sure during [Sprint Planner](Sprint.md) that tickets are written and prioritized in such a way that allows for this.
 
-After a branch is merged, it automatically gets deleted to prevent too many stale branches. If you need to make changes after a branch is merged, you'll have to create a new branch. If you want to leave a branch up that should not be deleted, add the `Do Not Delete` tag.
+After a branch is merged, it automatically gets deleted to prevent too many stale branches. If you need to make changes after a branch is merged, you'll have to create a new branch. If you want to leave a branch up that should not be deleted, add the `Do Not Delete` label.
 
 ### Develop
 Some of our projects lack preview links for pull requests. In these instances, you should merge your in-review feature branch into the weekly `develop` branch for UAT. This branch is pruned and reset to `staging` regularly so you should avoid basing any new work off of it.
