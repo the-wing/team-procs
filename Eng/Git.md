@@ -50,7 +50,7 @@ NOTE: you will need to force push your branch after the rebase. Make sure you al
 Open pull requests against `staging` early and give them tag of WIP (work in progress). In the case that your repo does not have automated preview links, you may need to do a manual merge of your work onto the `develop` branch for UAT testing. To do this:
 
 ```
-$ git checkout develop
+$ git checkout deploy-preview (formerly develop)
 $ git pull --ff-only
 $ git merge WING-123-some-new-feature 
 $ git push
