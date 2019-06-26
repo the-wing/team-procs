@@ -52,7 +52,12 @@ Open pull requests against `staging` early and give them tag of WIP (work in pro
 ```
 $ git checkout deploy-preview (formerly develop)
 $ git fetch
-$ git reset --hard origin/staging 
+
+if no other engineer is using the preview env, reset the branch to staging by running:
+$ git reset --hard origin/staging  
+otherwise, run git pull
+
+merge your feature branch onto deploy-preview then push
 $ git merge WING-123-some-new-feature 
 $ git push --force
 ```
