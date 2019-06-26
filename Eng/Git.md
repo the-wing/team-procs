@@ -51,10 +51,13 @@ Open pull requests against `staging` early and give them tag of WIP (work in pro
 
 ```
 $ git checkout deploy-preview (formerly develop)
-$ git pull --ff-only
+$ git fetch
+$ git reset --hard origin/staging 
 $ git merge WING-123-some-new-feature 
-$ git push
+$ git push --force
 ```
+
+Then, ssh into the DEVDEPLOY machine. Cd into the-wing. Checkout deploy-preview. Git pull. Check that you have the latest code (the commits from your feature branch should be the first to appear when you run git log). To deploy to the preview env, run yarn deploy:preview.
 
 Once you have gotten full approval on all fronts (code, UAT, design) you may merge your feature work into staging using the Github pull request merge button. 
 
